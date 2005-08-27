@@ -12,11 +12,11 @@ URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	freetype-devel
+BuildRequires:	pkgconfig >= 0.19
+BuildRequires:	xorg-data-xbitmaps
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libfontenc-devel
 BuildRequires:	xorg-util-util-macros
-BuildRequires:	pkgconfig >= 0.19
-BuildRequires:	xorg-data-xbitmaps
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
