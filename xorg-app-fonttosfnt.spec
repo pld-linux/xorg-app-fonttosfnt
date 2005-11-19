@@ -1,12 +1,12 @@
 Summary:	fonttosfnt application
 Summary(pl):	Aplikacja fonttosfnt
 Name:		xorg-app-fonttosfnt
-Version:	0.99.1
+Version:	0.99.2
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/app/fonttosfnt-%{version}.tar.bz2
-# Source0-md5:	4b2227ff198324bba114e2b54b0f33e3
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC2/app/fonttosfnt-%{version}.tar.bz2
+# Source0-md5:	cf91952043a11ab1684c6ce607eb143d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
