@@ -1,20 +1,20 @@
 Summary:	fonttosfnt application
 Summary(pl):	Aplikacja fonttosfnt
 Name:		xorg-app-fonttosfnt
-Version:	0.99.2
+Version:	0.99.3
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC2/app/fonttosfnt-%{version}.tar.bz2
-# Source0-md5:	cf91952043a11ab1684c6ce607eb143d
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/fonttosfnt-%{version}.tar.bz2
+# Source0-md5:	b2cc6665493f0a9ca0102248979acbac
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	freetype-devel >= 2
 BuildRequires:	pkgconfig >= 1:0.19
-BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-lib-libfontenc-devel
-BuildRequires:	xorg-util-util-macros >= 0.99.1
+BuildRequires:	xorg-proto-xproto-devel
+BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -39,8 +39,7 @@ Aplikacja fonttosfnt.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-	DESTDIR=$RPM_BUILD_ROOT \
-	appmandir=%{_mandir}/man1
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
