@@ -1,5 +1,5 @@
 Summary:	fonttosfnt application - wrap a bitmap font in a sfnt (TrueType) wrapper
-Summary(pl.UTF-8):   Aplikacja fonttosfnt - osadzanie fontu bitmapowego w obudowie sfnt (TrueType)
+Summary(pl.UTF-8):	Aplikacja fonttosfnt - osadzanie fontu bitmapowego w obudowie sfnt (TrueType)
 Name:		xorg-app-fonttosfnt
 Version:	1.0.3
 Release:	1
