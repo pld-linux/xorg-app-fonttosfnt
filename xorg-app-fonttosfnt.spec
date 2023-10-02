@@ -1,20 +1,22 @@
 Summary:	fonttosfnt application - wrap a bitmap font in a sfnt (TrueType or OpenType) wrapper
 Summary(pl.UTF-8):	Aplikacja fonttosfnt - osadzanie fontu bitmapowego w obudowie sfnt (TrueType lub OpenType)
 Name:		xorg-app-fonttosfnt
-Version:	1.2.2
+Version:	1.2.3
 Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	https://xorg.freedesktop.org/releases/individual/app/fonttosfnt-%{version}.tar.bz2
-# Source0-md5:	d0173cfab9af4b6c933e557f091bdfe2
+Source0:	https://xorg.freedesktop.org/releases/individual/app/fonttosfnt-%{version}.tar.xz
+# Source0-md5:	91b7701f6103410486257014bcc3f814
 URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	freetype-devel >= 2
 BuildRequires:	pkgconfig >= 1:0.19
+BuildRequires:	tar >= 1:1.22
 BuildRequires:	xorg-lib-libfontenc-devel
 BuildRequires:	xorg-proto-xproto-devel
 BuildRequires:	xorg-util-util-macros >= 1.8
+BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
